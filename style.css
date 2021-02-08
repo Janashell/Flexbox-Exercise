@@ -43,8 +43,8 @@ section {
   }
   /* START BELOW THIS LINE */
 
-  #one{
-      display: flex;
+    #one{
+      display: flex; 
       justify-content: flex-end;
       flex-direction: column;
       align-items: center;
@@ -60,10 +60,18 @@ section {
       }
 
       #one{
-        /* flex-direction: column-reverse; */
+        flex-direction: column-reverse;
       }
 
       #two :nth-child(1) {order: 2;}
       #two :nth-child(2) {order: 3;}
       #two :nth-child(3) {order: 1;}
+
+      #brown{
+        align-self: flex-start;
+      }
+      
+      #purple{
+        align-self: flex-end;
+      }
   
